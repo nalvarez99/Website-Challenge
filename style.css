@@ -1,0 +1,326 @@
+body {
+    background: #080C20;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    overflow-x: auto;
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+    
+}
+
+.logo-icon {
+    width: 150px;
+    margin-bottom: 7em;
+    margin-top: 5em;
+    margin-left: 12em;
+}
+
+.heading-center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-center {
+    display: flex;
+    margin: 2rem;
+    margin-right: 8em;
+    padding: 0.1em;
+    background-image: url("assets/bg-hero-squiggle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    justify-content: center;
+    align-content: center;
+}
+
+.center-text {
+    text-align: center;
+    justify-content: center;
+    width: 120%;
+}
+
+.center-paragraph {
+    text-align: center;
+    justify-content: center;
+    width: 120%;
+}
+
+#scroll-icon {
+    width: 1.7em;
+    position: absolute;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+    left: 56%;
+}
+
+img {
+    width: 90%;
+}
+
+.benefit-section {
+    margin-top: 13em;
+    margin-bottom: 10em;
+}
+
+.benefit-image {
+    background: #093F68;
+    width: 70%;
+    height: 180px;
+    border-radius: 3em;
+    padding: 1.5em 1.8em 1.5em 2.2em;
+}
+
+.benefit-image-small {
+    background: #093F68;
+    width: 70%;
+    height: 180px;
+    border-radius: 3em;
+    padding: 2.2em 2.5em 2.2em 2.5em;
+}
+
+.benefit-image-car {
+    background: #093F68;
+    width: 70%;
+    height: 180px;
+    border-radius: 3em;
+    padding: 2.7em 2em 2.7em 2em;
+}
+
+.benefit-indent {
+    margin-top: 3em;
+}
+
+.benefit-text {
+    margin-top: 3em;
+    width: 95%
+}
+
+.pricing-header-section {
+    display: flex;
+    margin-top: 8em;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pricing-font-size {
+    font-size: 32px;
+}
+
+#pricing-text {
+    text-align: center;
+    justify-content: center;
+    width: 120%;
+    margin-bottom: 2em;
+}
+
+#pricing-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+    margin-bottom: 10em;
+}
+
+.free-section {
+    padding: 2em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    background-color: #093f68;
+    border-radius: 0.5em;
+    width: 450px;
+    margin-right: 1em;
+}
+
+.free-along-border {
+    position: absolute;
+    width: 2.5em;
+    left: 32px;
+    top: -20px;
+}
+
+.paid-section {
+    padding: 2em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    background-color: #3ee9e5;
+    border-radius: 0.5em;
+    width: 530px;
+    margin-left: 1em;
+}
+
+.paid-along-border {
+    position: absolute;
+    width: 2.5em;
+    left: 32px;
+    top: -27px;
+}
+
+.free-text {
+    width: 95%;
+    margin-bottom: 2em;
+}
+
+.paid-text {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.paid-text-color {
+    color: black;
+}
+
+.small-month {
+    font-size: 15px;
+    color: #777f98;
+}
+
+#paid-price-text {
+    display: flex;
+    font-size: 40px;
+    margin-bottom: 0.5em;
+}
+
+.small-month {
+    display: flex;
+    align-self: center;
+    padding-left: 0.5em;
+    width: 50%;
+    font-weight: lighter;
+}
+
+.check-size {
+    width: 0.8em;
+    padding-bottom: 0.3em;
+    margin-right: 1em;
+}
+
+.free-check {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(67%) saturate(450%) hue-rotate(125deg) brightness(105%) contrast(84%);
+}
+
+.email-section {
+    padding-top: 5.3em;
+    padding-bottom: 4em;
+    background-image: url("assets/bg-footer-squiggle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 6em;
+}
+
+.notify-center {
+    text-align: center;
+    margin-bottom: 1.2em;
+    font-size: 32px;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-field-container {
+    margin-left: 2em;
+}
+
+.invalid-text {
+    padding: 0;
+    margin-left: 1em;
+    font-size: 14px;
+    color: #FF2965;
+}
+
+#email-field {
+    border: none;
+    border-radius: 2em;
+    margin-right: 1em;
+    width: 10px;
+    height: 50px;
+    background-color: #093F68;
+    color: white;
+    margin-bottom: 0.5em;
+    margin-right: 4em;
+}
+
+#email-field:focus {
+    outline: none;
+    border: solid #3ee9e5;
+    color: white;
+}
+
+.email-field-invalid:focus {
+    outline: none;
+    border: solid #3ee9e5;
+    color: #FF2965;
+}
+
+.email-button {
+    border: none;
+    border-radius: 2em;
+    background-color: #3ee9e5;
+    color: #093F68;
+    height: 50px;
+    width: 7em;
+    margin-right: 3.5em;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.email-button:focus , .email-button:hover {
+    outline: none;
+    border: solid #3ee9e5;
+    background-color: #080C20;
+    color:white;
+}
+
+::placeholder {
+    font-weight: bold;
+    color: #777F98;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 1.5em;
+}
+
+span {
+    color: #3ee9e5
+}
+
+p {
+    font-size: 15px;
+    color: #777f98;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+.pricing {
+    font-size: 40px;
+    margin-bottom: 0.5em;
+}
