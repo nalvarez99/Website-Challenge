@@ -21,15 +21,10 @@
   <link rel="stylesheet" href="style.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-
-  <!-- Link Javascript -->
-  <script src="script.js"></script>
   
   <title>Frontend Mentor | Maker pre-launch landing page</title>
 </head>
 <body>
-
-  Nothing really
 
   <img class="logo-icon" src="assets/logo.svg" alt="Responsive image">
 
@@ -138,16 +133,23 @@
         <h2 class="notify-center">Get notified when we launch</h2>
           <div class="email-container container">
             <div class="row">
-              <div class="email-field-container container col-lg-7">
+              <div class="email-field-container container">
                 <div class="row">
-                  <input id="email-field" class="col-lg-12" type="email" placeholder="Email address">
-                  <p class="invalid-text col-lg-12">Oops! That doesn't look like an email address</p>
+                  <form id="email-form" onsubmit="return false">
+                    <input class="email-field" type="text" name="text" placeholder="Email address">
+                    <input id="emailButton" type="submit" value="Get notified" class="email-button col-lg-3">
+                    <p id="invalid-text"></p>
+                  </form>
                 </div>
               </div>
-              <button class="email-button col-lg-3">Get notified</button>
+                  
             </div>
           </div>
       </div>
     </section>
 </body>
+
+<!-- Link Javascript -->
+<script src="script.js"></script>
+
 </html>
