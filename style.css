@@ -2,7 +2,7 @@ body {
     background: #080C20;
     font-family: 'Manrope', sans-serif;
     color: white;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .logo-icon {
